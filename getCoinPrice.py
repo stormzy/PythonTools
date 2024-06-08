@@ -52,7 +52,7 @@ def get_price_by_client(symbols):
 def main():
     # get_price_by_ws()
     
-    symbols = requests.utils.quote('["BTCUSDT","ETHUSDT","BNBUSDT","SOLUSDT","NEARUSDT","RNDRUSDT","COMPUSDT","SNXUSDT","SCUSDT"]')
+    symbols = requests.utils.quote('["BTCUSDT","ETHUSDT","BNBUSDT","SOLUSDT","RNDRUSDT","COMPUSDT","SNXUSDT","SCUSDT"]')
     get_price_by_client(symbols)
 
     # while True:
